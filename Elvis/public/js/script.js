@@ -1,4 +1,14 @@
-// script.js
+// Header
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
+ 
+  //HERO SECTION
 document.addEventListener("DOMContentLoaded", function() {
     const text = "I am a web developer, designer, mobile app developer";
     const headlineElement = document.querySelector(".headline");
@@ -21,3 +31,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     type();
 });
+
